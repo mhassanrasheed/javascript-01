@@ -1,0 +1,15 @@
+.suguru-layout { display: flex; flex-direction: column; position: fixed; left: 0; top: 0; right: 0; bottom: 0; }
+
+.suguru { position: relative; display: flex; justify-content: center; }
+.suguru table { position: relative; border: 3px solid #000; }
+
+.suguru .cell { margin: 1px; border: 1px solid #999; width: 50px; height: 50px; line-height: 50px; font-family: Arial, sans-serif; text-align: center; font-size: 24px; background: #FCFCFC; cursor: pointer; }
+.suguru .cell.given { background: #EFEFEF; pointer-events: none; }
+.suguru .cell.current { background: #FDB; }
+.suguru .cell.correct { background: #ACA; }
+.suguru .cell.incorrect { background: #F99; }
+
+.suguru .cell.left { border-color: #000; border-left-width: 2px; }
+.suguru .cell.right { border-color: #000; border-right-width: 2px; }
+.suguru .cell.top { border-color: #000; border-top-width: 2px; }
+.suguru .cell.bottom { border-color: #000; border-bottom-width: 2px; }
